@@ -67,3 +67,21 @@ ul {
   background-color: blue;
   float: right;
 }
+.amir {
+  text-align: center;
+}
+.centered_div {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  text-align: center;
+  margin: auto;
+}
+#btn1 {
+  display: block;
+  margin: 10px auto;
+}
+#btn2 {
+  display: block;
+  margin: 10px auto;
+}
