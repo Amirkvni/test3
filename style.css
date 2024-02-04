@@ -27,3 +27,27 @@ ul {
   border-radius: 20px;
   text-align: center;
 }
+.parent {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  margin: 0 auto;
+  position: relative;
+}
+.child {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin-left: 30px;
+  position: absolute;
+}
+.div_3 {
+  float: right;
+  width: 300px;
+  height: 150px;
+  background-color: blueviolet;
+  background-image: url("https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
