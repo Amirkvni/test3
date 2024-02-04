@@ -85,3 +85,17 @@ ul {
   display: block;
   margin: 10px auto;
 }
+.father div {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(244, 13, 210);
+  margin-left: 10px;
+  float: left;
+}
+.child_one + div {
+  background-color: aqua;
+}
+.child_two ~ div {
+  border-radius: 34px;
+  border: 4px dashed rgb(1, 48, 10);
+}
