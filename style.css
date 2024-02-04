@@ -1,0 +1,10 @@
+h1 {
+  border: 5px solid darkblue;
+  display: inline;
+  outline: thick solid rebeccapurple;
+  outline-offset: 1px;
+}
+#p1 {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
