@@ -90,7 +90,7 @@ ul {
   height: 200px;
   background-color: rgb(244, 13, 210);
   margin-left: 10px;
-  float: left;
+  /* float: left; */
 }
 .child_one + div {
   background-color: aqua;
@@ -98,4 +98,18 @@ ul {
 .child_two ~ div {
   border-radius: 34px;
   border: 4px dashed rgb(1, 48, 10);
+}
+.pseudo1 {
+  width: 150px;
+  height: 150px;
+  background-color: brown;
+}
+.mobile {
+  width: 200px;
+  height: 200px;
+  background-color: cadetblue;
+}
+.mobile:active {
+  width: 200px;
+  height: 200px;
 }
