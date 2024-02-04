@@ -7,11 +7,23 @@ h1 {
 #p1 {
   text-transform: uppercase;
   /* letter-spacing: 10px; */
-  word-spacing: 30px;
+  word-spacing: 4px;
 }
 .p2 {
-  line-height: 50px;
+  line-height: 40px;
   text-decoration: line-through red dashed 3px;
-  font-size: 40px;
-  line-height: 80px;
+  font-size: 30px;
+}
+ol {
+  /* list-style-type: none; */
+  list-style-position: inside;
+}
+ul {
+  list-style-position: inside;
+}
+.lists {
+  background-color: royalblue;
+  border: 1px solid red;
+  border-radius: 20px;
+  text-align: center;
 }
