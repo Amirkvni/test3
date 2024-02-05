@@ -126,7 +126,46 @@ ul {
   height: 200px;
   background-color: chocolate;
   transition: width 3s;
+  transition-delay: 1s;
 }
 .shadow1:hover {
-  width: 2000px;
+  width: 1200px;
+  transition: width 5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 10s;
+}
+
+/* animations : */
+@keyframes anim {
+  0% {
+    background-color: rebeccapurple;
+    width: 250px;
+  }
+  25% {
+    background-color: rgb(15, 76, 232);
+    width: 450px;
+  }
+  50% {
+    background-color: rgb(238, 13, 5);
+    width: 550px;
+  }
+  100% {
+    background-color: rgb(218, 255, 8);
+    width: 850px;
+  }
+}
+.shadow2 {
+  width: 250px;
+  height: 200px;
+  background-color: rgb(52, 119, 197);
+  animation-name: anim;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.shadow2:hover {
+  animation-play-state: paused;
+  background-color: black !important;
+  color: white;
+  border: 10px solid rgb(204, 22, 22);
 }
