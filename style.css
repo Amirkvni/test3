@@ -169,3 +169,10 @@ ul {
   color: white;
   border: 10px solid rgb(204, 22, 22);
 }
+.newspaper {
+  column-count: 4;
+  column-gap: 50px;
+  column-rule-style: dashed;
+  column-rule-color: red;
+  column-rule-width: 3px;
+}
